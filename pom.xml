@@ -1,54 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.15</version>
-		<relativePath/> <!-- lookup parent from repository -->
-	</parent>
-	<groupId>com.cryptosim</groupId>
-	<artifactId>cryptosim</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
-	<properties>
-		<java.version>17</java.version>
-	</properties>
-	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+  4.0.0
 
-</project>
+  
+    org.springframework.boot
+    spring-boot-starter-parent
+    3.3.0
+    
+  
+
+  com.cryptosim
+  cryptosim
+  0.0.1-SNAPSHOT
+  CryptoSim Pro
+  Production-grade crypto paper trading simulator
+
+  
+    17
+  
+
+  
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-web
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-data-jpa
+    
+
+    
+    
+      com.mysql
+      mysql-connector-j
+      runtime
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-data-redis
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-security
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-websocket
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-validation
+    
+
+    
+    
+      org.projectlombok
+      lombok
+      true
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-devtools
+      runtime
+      true
+    
+
+    
+    
+      io.jsonwebtoken
+      jjwt-api
+      0.11.5
+    
+    
+      io.jsonwebtoken
+      jjwt-impl
+      0.11.5
+      runtime
+    
+    
+      io.jsonwebtoken
+      jjwt-jackson
+      0.11.5
+      runtime
+    
+
+    
+    
+      org.java-websocket
+      Java-WebSocket
+      1.5.4
+    
+
+    
+    
+      org.springframework.boot
+      spring-boot-starter-test
+      test
+    
+    
+      org.springframework.security
+      spring-security-test
+      test
+    
+
+  
+
+  
+    
+      
+        org.springframework.boot
+        spring-boot-maven-plugin
+        
+          
+            
+              org.projectlombok
+              lombok
+            
+          
+        
+      
+    
+  
+
